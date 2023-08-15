@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color:white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color:rgb(248, 246, 246);
+}
+.nav-right button{
+    width: 70px;
+    background-color: rgb(207, 15, 15);
+    border-radius: 25px;
+    position: relative;
+    right: 12px;
+    height: 30px;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+    height: 25px;
+
+}
+.nav-right .user-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-left .menu-icon{
+width: 22px;
+margin-right: 25px;
+}
+.nav-left .logo{
+width: 130px;
+}
+.nav-middle .mic-icon{
+    width: 28px;
+}
+.nav-middle .search-box{
+    border: 2px solid #ccc;
+    margin-right: 11px;
+    padding: 6px 10px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background:transparent;
+}
+.nav-middle .search-box .img{
+    width: 15px;
+}
+/*----------sidebar-------------*/
+
+.sidebar{
+     background: white;
+     width: 15%;
+     height: 100vh;
+     position: fixed;
+     top: 6%;
+     padding-left:2% ;
+padding-top: 80px;
+    }
+    .shortcut-links a img{
+        width: 40px;
+        margin-right: 20px;
+    }
+    .shortcut-links a {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: fit-content;
+        flex-wrap: wrap;
+    }
+    .shortcut-links a :first-child{
+        color: red;
+    }
+    .sidebar hr{
+        border: 0;
+        height: 1px;
+        background: #ccc;
+        width: 85%;
+    background-color: red;
+    }
+    .vl{
+        border-right: 4px solid black;
+        height: 350px;
+        position:relative;
+        bottom: 370px;
+    }
+.images{
+position: relative;
+left:200px;
+top: -15px;
+}
+.float .naval-stand{
+    position: relative;
+    left: 203px;
+    bottom: 170px;
+}
+.float .kill{
+    position: relative;
+    left: 406px;
+    bottom: 323px;
+}
+.float .rular{
+    position: relative;
+    left: 609px;
+    bottom: 476px;
+}
+.mugu hr{
+    color: black;
+    width: 800px;
+    border: 1px solid red;
+}
